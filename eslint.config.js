@@ -20,8 +20,9 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
+      "comma-dangle": ["error", "always-multiline"],
       "quotes": ["error", "double", { "avoidEscape": true }],
-      "semi": ["error", "always"]
+      "semi": ["error", "always"],
     }
   },
 ])
