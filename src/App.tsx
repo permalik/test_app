@@ -1,33 +1,14 @@
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
+import LayoutMain from "@/components/layout/main.tsx";
 
 function App() {
 
-  return (
-    <>
-      <h1>
-        Hello world!
-      </h1>
-      <NavigationMenu>
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-    </>
-  )
+    return (
+        <>
+            <LayoutMain>
+                Content
+            </LayoutMain>
+        </>
+    );
 }
 
-export default App
+export default App;
