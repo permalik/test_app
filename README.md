@@ -1,11 +1,14 @@
 # test_app: React + TypeScript + Vite
 
 ## Resources
-https://vite.dev/
-https://react.dev/
-https://eslint.org/
-https://tailwindcss.com/
-https://ui.shadcn.com/
+https://eslint.org/  
+https://jotai.org/  
+https://react.dev/  
+https://tailwindcss.com/  
+https://tanstack.com/  
+https://ui.shadcn.com/  
+https://vite.dev/  
+https://zustand-demo.pmnd.rs/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
